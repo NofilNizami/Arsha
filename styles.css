@@ -1,0 +1,396 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.nav li a{
+color: white;
+}
+
+.nav li a:hover {
+color: #47B2E4;
+}
+
+nav{
+    background-color: #37517E !important;
+}
+
+.container-fluid{
+    background-color: #37517E;
+}
+
+.paragraph{
+    color: #ADB8CA;
+}
+
+.button1{
+    width: 150px;
+    transition: all 0.5s;
+    background-color: #1fa8e7;
+}
+
+
+.button1:hover{
+    background-color: #0395d8 !important;
+}
+
+.button2{
+    width: 150px;
+}
+
+.button2child{
+    transition: all 0.5s;
+}
+
+.button2:hover .button2child{
+color: #1fa8e7;
+}
+
+.main-image{
+    animation: move 2s linear infinite alternate-reverse;
+}
+
+@keyframes move{
+from{
+    transform: translateY(0);
+
+}to{
+    transform: translateY(-20px);
+}
+}
+
+
+.brand{
+    filter: grayscale(100%);
+    transition: all 0.3s;
+}
+
+.brand:hover{
+    filter: grayscale(0%);
+}
+
+
+.aboutus-h1{
+    color: #37517E;
+}
+
+.div-line{
+    width: 150px;
+    height: 3px;
+    background-color: lightgray;
+    position: relative;
+    margin: auto;
+}
+
+.divline-child{
+    width: 50px;
+    height: 3px;
+    background-color: #1fa8e7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul{
+    list-style: none;
+    padding: 0%;
+}
+
+ul li i{
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.rightdiv button:hover{
+    color: white !important;
+}
+
+.annecdotediv h1{
+    color: #37517E;
+}
+
+.annecdotediv p{
+    color: gray;
+}
+
+.accordianbtn span{
+    margin-right: 10px;
+    color: #0395d8;
+    padding: 0%;
+}
+
+.accordianbtn p{
+    color: #1fa8e7;
+    font-weight:bold ;
+    padding: 0%;
+margin-bottom: 0px;
+}
+
+
+.bardiv h1{
+    color: #37517E;
+    margin-bottom: 20px;
+}
+
+.bardiv p{
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.bardiv-child p{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.progressdiv{
+    height: 10px !important;
+    margin-top: none;
+    margin-bottom: 15px;
+}
+
+.serviceus-h1{
+    color: #37517E;
+}
+
+.servicediv i{
+    color: #47B2E4;
+    font-size: 30px;
+    margin: 20px 0px;
+}
+
+.servicediv h2{
+    color: #37517E;
+}
+
+.servicediv p{
+    color: gray;
+}
+
+.servicedivcard{
+    transition: all 0.5s;
+}
+
+.servicedivcard:hover{
+    transform: translateY(-20px);
+}
+
+.background-img{
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url('https://bootstrapmade.com/demo/templates/Arsha/assets/img/cta-bg.jpg') fixed center center;
+}
+
+.backgroundcol{
+    margin: 130px 0px;
+}
+
+.small-cards button{
+    transition: all 0.5s;
+}
+
+.first-btn{
+    background-color: #47B2E4;
+}
+
+.small-cards button:hover{
+    background-color: #47B2E4;
+    color: white !important;
+}
+
+.images-section img{
+    margin: 10px 0px;
+}
+
+.img-gallery{
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery img{
+    transition: all 0.3s;
+
+}
+
+.img-gallery:hover img{
+    transform: scale(1.1);
+}
+
+.img-gallery:hover .back-gallery{
+    opacity: 0.8;
+}
+
+.back-gallery{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background-color: #37517E;
+    z-index: 1;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0;
+    padding: 1rem;
+    color: white;
+    transition: all 0.5s;
+}
+
+.text-gallery h5{
+    margin: 0%;
+    margin-top: 10px;
+}
+
+.icons-gallery i{
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+
+.walter{
+    transition: all 0.5s;
+}
+
+.walter:hover{
+    transform: translateY(-20px);
+}
+
+.pricing-card h1{
+    color: #37517E !important;
+    margin: 20px 0px;
+    margin-bottom: 30px;
+}
+
+
+.pricing-card ul li{
+    margin-bottom: 13px;
+}
+
+.cross-side{
+    filter: blur(1px);
+    text-decoration: line-through;
+}
+
+.pricing-button{
+    transition: all 0.5s;
+}
+
+.pricing-button:hover{
+    color: white !important;
+}
+
+.contacti{
+    color: #1fa8e7;
+    margin-right: 20px;
+    font-size: 26px;
+}
+
+.contact-child2 h4, p{
+    color: gray;
+}
+
+.contactrow{
+    border-top: 2px solid #0395d8 !important;
+    border-bottom: 2px solid #0395d8 !important;
+    margin-left: 30px;
+}
+
+.contactrow-father{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactrow-child{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactrow-child label{
+    font-size: 20px;
+    color: gray;
+}
+
+.contactrow-child input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    width: 320px;
+}
+
+
+.main-flex label{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.main-flex input, textarea {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.searchbar{
+    position: relative;
+}
+
+.searchbar button{
+    position: absolute;
+    right: 21%;
+}
+
+.searchbar button:active{
+    border: none;
+}
+
+.footer-col h4{
+color: #37517E;
+}
+
+.footer-col p{
+    font-size: 14px;
+    }
+
+
+.footer-col h6{
+    color: #37517E;
+}
+
+.footer-col li i{
+    font-size: 12px;
+    color: #0395d8;
+}
+
+.footer-col li{
+    margin-bottom: 15px;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+.footer-col li:hover{
+    color: #0395d8;
+}
+
+.footer-col3 h4{
+    color: #37517E;
+}
+
+.footer-col3 i{
+    margin: 0px 10px !important;
+    transition: all 0.5s;
+}
+
+.footer-col3 i:hover{
+    color: #37517E !important;
+    cursor: pointer;
+}
+
+.footer-end p{
+    color: white !important;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.footer-end p span{
+    color: #0395d8;
+}

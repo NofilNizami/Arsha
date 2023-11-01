@@ -1,0 +1,167 @@
+@media only screen and (max-width:1300px){
+    .contactrow-child input{
+        width: 250px;
+    }
+    
+}
+
+
+
+
+
+@media only screen and (max-width:1024px){
+    .pricing-card{
+        padding: 20px !important;
+    }
+
+    .contactrow-child input{
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (max-width:912px){
+    .heading .h1{
+        font-size: 55px;
+    }
+
+    .heading p{
+        font-size: 30px !important;
+    }
+
+    .button1, .button2{
+        width: 200px;
+        padding: 10px 0px !important;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .button2child{
+        margin-right: 15px !important;
+    }
+
+    .pricing-card button{
+        margin: auto;
+    }
+
+    .contactrow-father{
+        flex-direction: column;
+    }
+
+    .footer-col, .footer-col3{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:768px){
+    
+    .backgroundcol{
+        margin: 80px 0px;
+    }
+
+}
+
+@media only screen and (max-width:540px){
+    
+    .backgroundcol{
+        margin: 20px 0px;
+    justify-content: center !important;
+    }
+
+    .walter img{
+        margin-bottom: 20px;
+    }
+
+    .pricing-card{
+        align-items: center;
+    }
+
+    .accordianbtn p{
+        font-size: 14px !important;
+    }
+
+    .searchbar input{
+        width: 100% !important;
+    }
+
+    .searchbar button{
+        right: 0;
+    }
+
+
+}
+
+@media only screen and (max-width:414px){
+    .heading .h1{
+        font-size: 40px;
+    }
+
+    .heading p{
+        font-size: 25px !important;
+    }
+
+    .button1, .button2{
+        width: 100%;
+    }
+
+    .button2child{
+font-size: 30px !important;
+    }
+
+    .pricing-card{
+        align-items: flex-start;
+    }
+
+    .accordianbtn p{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .contactbtn{
+        width: 200px !important;
+    }
+
+    .footer-end{
+        flex-direction: column !important;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:280px){
+    .heading .h1{
+        font-size: 25px;
+    }
+
+    .heading p{
+        font-size: 20px !important;
+    }
+
+    .small-cards{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .small-cards button{
+        margin-top: 10px !important;
+    }
+
+    .accordianbtn p{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .contactbtn{
+        width: 150px !important;
+        align-items: center;
+    }
+
+    .searchbar{
+        flex-direction: column;
+    }
+
+    .searchbar button{
+        position: inherit;
+        margin-top: 20px;
+    }
+}
